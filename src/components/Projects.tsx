@@ -10,7 +10,7 @@ const Projects = () => {
       img: '/calculator.jpg',
       name: 'Calculator Application',
       desc: 'A responsive calculator supporting basic arithmetic operations with a clean interface.',
-      link: 'https://m6839.github.io/calculator-project/',
+      link: 'https://calculator-project-rho-gray.vercel.app/',
     },
     {
       img: '/weather-app-using-javascript.png',
