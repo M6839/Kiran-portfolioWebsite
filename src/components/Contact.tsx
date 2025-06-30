@@ -62,6 +62,8 @@ const Contact = () => {
             Feel free to reach out if you’d like to collaborate — you&apos;re just a
             few clicks away!
           </p>
+          <form action="https://api.web3forms.com/submit" method="POST" className='flex flex-col gap-4 flex-1'>
+          <input type="hidden" name="access_key" value="ff3bb053-5322-4a9e-a4e9-3e90632189a8"></input>
           <input
             type="text"
             name="name"
@@ -79,9 +81,10 @@ const Contact = () => {
             placeholder="Your Message"
             className="bg-[#1a1a1a] text-white placeholder-gray-400 px-4 py-3 rounded-md text-lg h-40 resize-none focus:outline-none focus:ring-2 focus:ring-teal-500"
           ></textarea>
-          <button className="bg-teal-500 hover:bg-teal-600 transition duration-300 text-white py-3 px-6 rounded-md font-bold">
+          <button type='submit' className="bg-teal-500 hover:bg-teal-600 transition duration-300 text-white py-3 px-6 rounded-md font-bold">
             Send Message
           </button>
+          </form>
         </motion.div>
 
         {/* Right - Info & Icons */}
