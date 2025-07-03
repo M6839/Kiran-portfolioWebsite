@@ -28,7 +28,7 @@ import { FaArrowRight } from "react-icons/fa";
 
         <div className="mt-8 flex gap-4">
           <a
-            href="/KiranKumar_MERN_2025.pdf"
+            href="/KiranKumar_Resume_2025.pdf"
             className="bg-[#14b8a6] hover:bg-[#0d9488] text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200"
           >
             Download Resume
