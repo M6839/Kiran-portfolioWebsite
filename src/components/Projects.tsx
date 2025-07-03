@@ -16,7 +16,7 @@ const Projects = () => {
       img: '/weather-app-using-javascript.png',
       name: 'Weather Application',
       desc: 'A weather forecasting app showing temperature, humidity, wind speed, and forecasts.',
-      link: 'https://m6839.github.io/weather-app/',
+      link: 'https://weather-app-three-psi-83.vercel.app/',
     },
     {
       img: '/timer.jpg',
@@ -31,19 +31,19 @@ const Projects = () => {
       img: '/chat.jpg',
       name: 'MERN Chat App',
       desc: 'Real-time chat app built using MongoDB, Express, React, and Node.js with socket integration.',
-      link: '',
+      link: 'https://github.com/M6839/Chat_Application',
     },
     {
-      img: '/filemanager.jpg',
-      name: 'File Manager',
-      desc: 'A Next.js & Supabase-powered file manager to upload, organize, and preview files.',
-      link: '',
+      img: '/ecomerce.jpg',
+      name: 'K-Mart E-comerce application',
+      desc: 'Real time E-comerce app display items, we can filter by category wise,add to cart,order place,admin & user login these all features are developed.',
+      link: 'https://k-mart-ecomerce-frontend.vercel.app/',
     },
     {
       img: '/food.jpg',
       name: 'Food ordering Application',
       desc: 'same like swiggy it displays restuarents and food items and add items to cart and ordered.',
-      link: '',
+      link: 'https://github.com/M6839/F_Minutes-_food_application_frontend',
     },
   ];
 
