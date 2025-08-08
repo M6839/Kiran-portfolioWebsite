@@ -14,7 +14,7 @@ import { PiFileSqlBold } from "react-icons/pi";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
-
+import { SiSpring } from 'react-icons/si';
 const Skills = () => {
   const skills=[
     {skill:'HTML',logo:<GrHtml5 className='bg-white text-[#14b8a6] md:text-amber-500 text-[70px] p-[10px] rounded-full '/>},
@@ -27,6 +27,7 @@ const Skills = () => {
     {skill:'Next JS',logo:<RiNextjsFill className='bg-white text-[#14b8a6] md:text-amber-500 text-[70px] p-[10px] rounded-full '/>},
     {skill:'Tailwind CSS',logo:<RiTailwindCssLine className='bg-white text-[#14b8a6] md:text-amber-500 text-[70px] p-[10px] rounded-full '/>},
     {skill:'Java',logo:<FaJava className='bg-white text-[#14b8a6] md:text-amber-500 text-[70px] p-[10px] rounded-full '/>},
+     {skill:'Sprin Boot',logo:<SiSpring className='bg-white text-[#14b8a6] md:text-amber-500 text-[70px] p-[10px] rounded-full '/>},
     {skill:'MongoDB',logo:<DiMongodb className='bg-white text-[#14b8a6] md:text-amber-500 text-[70px] p-[10px] rounded-full '/>},
      {skill:'Mysql',logo:<PiFileSqlBold className='bg-white text-[#14b8a6] md:text-amber-500 text-[70px] p-[10px] rounded-full '/>},
 
