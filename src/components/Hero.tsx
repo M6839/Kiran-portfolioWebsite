@@ -5,8 +5,29 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { MdOutlineHexagon } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
  function Hero() {
+  const message = "Kiran Kumar";
+  const [text, setText] = useState("");
+  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setText((prev) => prev + message.charAt(index));
+      setIndex((prev) => prev + 1);
+    }, 300);
+
+    if (index === message.length) {
+      setTimeout(() => {
+        setText("");
+        setIndex(0);
+      }, 1000);
+    }
+
+    return () => clearTimeout(timeout);
+  }, [index, message]);
+
+  
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-[#f5f5f5] flex flex-col md:flex-row items-center justify-center pt-24 mx-4 md:mx-20 py-12 gap-10" id="Home">
       
@@ -20,7 +41,7 @@ import { FaArrowRight } from "react-icons/fa";
         {...({} as any)}
        className="flex-1 max-w-xl">
         <h1 className="text-5xl font-extrabold leading-tight">
-          Hi, I&apos;m <span className="text-[#14b8a6]">Kiran Kumar</span>
+          Hi, I&apos;m <span className="text-[#14b8a6]">{text}</span>
         </h1>
         <p className="mt-4 text-[#aaaaaa] text-[20px] md:text-[23px]">
           A passionate Full Stack Developer crafting fast, modern web experiences with clean, scalable code.
