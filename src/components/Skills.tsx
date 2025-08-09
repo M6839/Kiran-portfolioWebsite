@@ -78,7 +78,7 @@ const Skills = () => {
         transition={{ duration: 0.6 }}
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         {...({} as any)}
-        className='mx-auto md:mx-[20px] relative hover:translate-y-10 transition-all duration-500'
+        className='mx-auto   relative hover:translate-y-10 transition-all duration-500'
       >
         <div className='hidden md:block w-[80px] h-[200px] bg-[#14b8a6] rounded-t-full'></div>
         <div className='md:absolute md:top-[10px] left-[5px]'>
