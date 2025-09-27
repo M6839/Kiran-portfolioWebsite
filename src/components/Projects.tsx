@@ -5,26 +5,7 @@ import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';// adjust path if needed
 
 const Projects = () => {
-  const webProjects = [
-    {
-      img: '/calculator.jpg',
-      name: 'Calculator Application',
-      desc: 'A responsive calculator supporting basic arithmetic operations with a clean interface.',
-      link: 'https://calculator-project-rho-gray.vercel.app/',
-    },
-    {
-      img: '/weather-app-using-javascript.png',
-      name: 'Weather Application',
-      desc: 'A weather forecasting app showing temperature, humidity, wind speed, and forecasts.',
-      link: 'https://weather-app-three-psi-83.vercel.app/',
-    },
-    {
-      img: '/timer.jpg',
-      name: 'Timer & Stopwatch',
-      desc: 'Countdown timer and stopwatch with clean UI for studying, workouts, and more.',
-      link: 'https://timer-and-stop-watch-phi.vercel.app/',
-    },
-  ];
+  
 const frontendProjects=[
   {
       img: '/car-booking-app.jpg',
@@ -57,12 +38,6 @@ const frontendProjects=[
       name: 'Food ordering Application',
       desc: 'same like swiggy it displays restuarents and food items and add items to cart and ordered.',
       link: 'https://github.com/M6839/F_Minutes-_food_application_frontend',
-    },
-    {
-      img: '/chat.jpg',
-      name: 'MERN Chat App',
-      desc: 'Real-time chat app built using MongoDB, Express, React, and Node.js with socket integration.',
-      link: 'https://github.com/M6839/Chat_Application',
     },
     {
       img: '/notes-taking.png',
@@ -116,14 +91,6 @@ const frontendProjects=[
         {frontendProjects.map((project, i) => (
           <ProjectCard key={i} {...project} index={i} />
         ))}</div>
-
-      {sectionTitle('Basic web development projects')}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {webProjects.map((project, i) => (
-          <ProjectCard key={i} {...project} index={i} />
-        ))}
-      </div>
-
       {sectionTitle('Full Stack Development Projects')}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {fullStackProjects.map((project, i) => (
