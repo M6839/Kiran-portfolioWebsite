@@ -8,10 +8,10 @@ const Projects = () => {
   
 const frontendProjects=[
   {
-      img: '/car-booking-app.jpg',
-      name: 'Ride sharing Application',
-      desc: 'It is same like Ubber, here user can register as rider or user rider can registered with their vechicle details and posted trip details and users can booked vechicles for trip.',
-      link: '',
+      img: '/ott.jpg',
+      name: 'OTT platform website',
+      desc: 'It is same like netflix application developed full responcieve with reusable components.',
+      link: 'https://ott-website-ow4l.vercel.app/',
   },
   {
       img: '/website-blog.jpg',

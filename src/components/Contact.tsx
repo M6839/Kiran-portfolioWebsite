@@ -119,8 +119,8 @@ const Contact = () => {
            
             <a href='https://www.linkedin.com/in/kiran-kumar-madham-960943261/'><CiLinkedin className="text-[40px] text-teal-500 hover:scale-110 transition-transform cursor-pointer" /></a>
             <a href='http://github.com/kiran6832'><FaGithub className="text-[40px] text-teal-500 hover:scale-110 transition-transform cursor-pointer" /></a>
-             <a href='https://leetcode.com/Kiran6839/'><SiLeetcode className="text-[40px] text-teal-500 hover:scale-110 transition-transform cursor-pointer" /></a>
-              <a href='https://www.instagram.com/mkirankumar7997/'><FaInstagram className="text-[40px] text-teal-500 hover:scale-110 transition-transform cursor-pointer" /></a>
+            <a href='https://leetcode.com/Kiran6839/'><SiLeetcode className="text-[40px] text-teal-500 hover:scale-110 transition-transform cursor-pointer" /></a>
+            <a href='https://www.instagram.com/mkirankumar7997/'><FaInstagram className="text-[40px] text-teal-500 hover:scale-110 transition-transform cursor-pointer" /></a>
           </div>
         </motion.div>
       </motion.div>
