@@ -8,6 +8,12 @@ const Projects = () => {
   
 const frontendProjects=[
   {
+     img: '/jobPortal.png',
+      name: 'Job Portal',
+      desc: 'It is a Job portal interface developed full responcieve with reusable components.',
+      link: 'https://job-portal-frontend-tau-drab.vercel.app/',
+  },
+  {
       img: '/ott.jpg',
       name: 'OTT platform website',
       desc: 'It is same like netflix application developed full responcieve with reusable components.',
