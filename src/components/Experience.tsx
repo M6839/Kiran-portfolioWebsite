@@ -3,22 +3,16 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "Byte Uprise",
-    role: "Full stack Developer Team Lead Intern",
-    duration: "Apr 2025 - Jun 2025",
-    description: "During the internship I can learn leadership ,communication skills.Daily assings tasks to team mates and developed real time projects.",
+     company: "Zidio",
+    role: "Java Full stack Developer Intern",
+    duration: "June 2025 - Aug 2025",
+    description: "Developed and maintained Full stack applications using Java,Spring Boot,Mysql,React JS,Tailwind CSS. Collaborated with designers and team members.",
   },
   {
     company: "Byte Uprise",
     role: "Full stack Developer Intern",
-    duration: "Sept 2024 - Apr 2025",
+    duration: "Sept 2024 - May 2025",
     description: "Developed and maintained Full stack applications using React,Node Js, Express Js and Mongo DB. Collaborated with designers and team members.",
-  },
-  {
-    company: "Infiniz solutions",
-    role: "MERN stack developer Inten",
-    duration: "May 2024 - July 2024",
-    description: "Assisted in creating responsive websites and learned fullstack best practices.",
   },
 ];
 
