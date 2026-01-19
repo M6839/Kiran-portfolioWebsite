@@ -49,7 +49,7 @@ import { useEffect, useState } from "react";
 
         <div className="mt-8 flex gap-4">
           <a
-            href="/KiranKumar_Resume_2025.pdf"
+            href="https://drive.google.com/file/d/1F-mXU4Cm6NyxeHTLfQUyhfGJMzMLzsqr/view?usp=drive_link"
             className="bg-[#14b8a6] hover:bg-[#0d9488] text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200"
           >
             Download Resume
