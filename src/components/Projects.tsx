@@ -12,7 +12,7 @@ const frontendProjects=[
       img: '/ott.jpg',
       name: 'OTT platform website',
       desc: 'It is same like netflix application developed full responcieve with reusable components.',
-      link: 'https://ott-website-ow4l.vercel.app/',
+      link: 'https://ott-website-719w.vercel.app/',
   },
   {
       img: '/website-blog.jpg',
