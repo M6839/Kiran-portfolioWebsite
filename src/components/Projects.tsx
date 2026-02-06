@@ -24,7 +24,7 @@ const frontendProjects=[
       img: '/online-learning.jpg',
       name: 'Online learning website',
       desc: 'It is a simple online learning website, here we can learning diffrent courses via videos,pdfs etc.',
-      link: 'https://online-learning-application-interfa.vercel.app/',
+      link:'https://online-learning-application-interfa-omega.vercel.app/',
   }
 ];
   const fullStackProjects = [
