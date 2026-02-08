@@ -34,17 +34,18 @@ const frontendProjects=[
       desc: 'It is a Job portal interface developed full responcieve with reusable components.',
       link: 'https://job-portal-frontend-tau-drab.vercel.app/',
   },
+    
+    {
+      img: '/food.jpg',
+      name: 'Food ordering Application',
+      desc: 'same like swiggy it displays restuarents and food items and add items to cart and ordered.',
+      link: 'https://f-minutes-food-application-frontend.vercel.app/',
+    },
     {
       img: '/ecomerce.jpg',
       name: 'K-Mart E-comerce application',
       desc: 'Real time E-comerce app display items, we can filter by category wise,add to cart,order place,admin & user login these all features are developed.',
       link: 'https://k-mart-ecomerce-frontend.vercel.app/',
-    },
-    {
-      img: '/food.jpg',
-      name: 'Food ordering Application',
-      desc: 'same like swiggy it displays restuarents and food items and add items to cart and ordered.',
-      link: 'https://github.com/M6839/F_Minutes-_food_application_frontend',
     },
     {
       img: '/notes-taking.png',
